@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.simple-todo-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.todo-item {
+  color: #000000;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.delete-btn {
+  height: 26px;
+  width: 54px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+}
+@media screen and (min-width: 768px) {
+  .simple-todo-item {
+    margin-bottom: 20px;
+  }
+  .todo-item {
+    font-size: 20px;
+  }
+  .delete-btn {
+    height: 36px;
+    width: 74px;
+
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.simple-todo-bg-container {
+  background-color: #ffc2a0;
+  padding: 10px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.simple-todo-list-container {
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 95%;
+  max-height: 1000px;
+}
+.heading {
+  color: #ff8542;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 30px;
+  text-align: center;
+}
+.simple-todo-list {
+  padding-left: 3px;
+}
+@media screen and (min-width: 768px) {
+  .simple-todo-bg-container {
+    padding: 20px;
+  }
+  .simple-todo-list-container {
+    border-radius: 18px;
+
+    padding: 20px;
+    width: 95%;
+  }
+  .heading {
+    font-size: 55px;
+    margin-top: 30px;
+  }
+  .simple-todo-list {
+    padding-left: 3px;
+  }
+}
